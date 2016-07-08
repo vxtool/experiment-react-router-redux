@@ -1,0 +1,14 @@
+{
+  "presets": ["react", "es2015", "stage-0"],
+  "env": {
+    "production": {
+      "presets": ["react-optimize"],
+      "plugins": [
+        "babel-plugin-transform-remove-console",
+        "babel-plugin-transform-remove-debugger",
+        "babel-plugin-dev-expression"
+      ]
+    },
+  }
+}
+
