@@ -1,0 +1,9 @@
+:root {
+  --background: #f9f9f9;
+  --foreground: #242530;
+  --gray: #eee;
+  --grayDark: #bbb;
+  --success: #4caf50;
+  --danger: #ff0033;
+  --grid_gutter: 0.50rem;
+}
