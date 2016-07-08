@@ -1,0 +1,67 @@
+{
+  "name": "experiment-react-router-redux",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r babel-register ./node_modules/webpack-dev-server/bin/webpack-dev-server --config ./webpack.config.dev.js --progress --profile --colors",
+    "build": "NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config ./webpack.config.prod --progress --profile --colors",
+    "lint": "eslint source test *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/experiment-solutions/experiment-react-router-redux.git"
+  },
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (http://descco.com.br)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/experiment-solutions/experiment-react-router-redux/issues"
+  },
+  "homepage": "https://github.com/experiment-solutions/experiment-react-router-redux#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-dev-expression": "^0.2.1",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-remove-console": "^6.8.0",
+    "babel-plugin-transform-remove-debugger": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-react-optimize": "^1.0.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-import-resolver-webpack": "^0.3.2",
+    "eslint-plugin-import": "^1.10.0",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.21.0",
+    "json-loader": "^0.5.4",
+    "postcss-css-variables": "^0.5.1",
+    "postcss-loader": "^0.9.1",
+    "postcss-mixins": "^5.0.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-partial-import": "^1.3.0",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.5.1",
+    "react-router-redux": "^4.0.5",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  }
+}
